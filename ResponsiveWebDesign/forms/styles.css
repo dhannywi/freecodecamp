@@ -24,7 +24,7 @@ body::before {
     width: 100%;
     z-index: -1;
     background: var(--color-blacksaddlebrown);
-    background-image: linear-gradient( 115deg, rgba(0,0,0, 0.7), rgba(139,69,19, 0.5) ), url(https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/projects/survey-form/aditya-vyas-5qUJfO4NU4o-unsplash.jpg);
+    background-image: linear-gradient( 115deg, rgba(0,0,0, 0.7), rgba(139,69,19, 0.5) ), url(https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/images/aditya-vyas-5qUJfO4NU4o-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
