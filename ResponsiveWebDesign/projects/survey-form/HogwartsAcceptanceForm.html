@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Harry Potter Alliance Form</title>
+</head>
+
+<body>
+  <h1 id="title">Hogwarts Acceptance Form</h1>
+  <p id="description">
+    We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. You should have received a list of all necessary books and equipment enclosed with your acceptance letter.
+    <br><br>
+    You may use this form to confirm your attendance at Hogwarts. Term begins on September 1. We await your owl by no later than July 31.</p>
+
+  <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+    
+    <fieldset>
+      <label id="name-label" for="name">
+          <p>
+          Name<br>
+            <input id="name" type="text" placeholder="Harry Potter" required/>
+        </p>
+      </label>
+      <label id="email-label" for="email">
+        Owl mail<br>
+        <input id="email" type="email" placeholder="hedwig@hogwarts.edu" required/>
+      </label>
+      <label id="number-label" for="age">
+        <p>Age<br>
+        <input id="number" type="number" name="age" min="11" max="120" placeholder="In years" />
+        </p>
+        </label>
+
+        </p>
+      </label>
+      <label>
+
+      </label>
+
+      <label for="identity"><p>Identity<br>
+          <select id="dropdown" name="identity">
+            <option value="">(select one)</option>
+            <option value="1">Pureblood</option>
+            <option value="2">Half-blood</option>
+            <option value="3">Squib</option>
+            <option value="4">Muggle</option>
+            <option value="5">Prefer not to identify</option>
+          </select>
+          </p>
+        </label>
+
+        <label for="pets"><p>Pets<br>
+          <input id="owl" type="radio" name="pets" value="owl"/> Owl<br>
+          <input id="cat" type="radio" name="pets" value="cat"/> Cat<br>
+          <input id="toad" type="radio" name="pets" value="toad"/> Toad<br>
+          <input id="none" type="radio" name="pets" value="none"/> I won't be bringing any of those<br>
+          </p>
+        </label>
+
+        <label for="dietary"><p>Dietary requests<br>
+          <textarea id="dietary" name="bio" rows="3" cols="30" placeholder="I am sensitive to..."></textarea></p>
+        </label>
+
+      <label for="terms-and-conditions" name="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="terms" /> I am aware that first years are not allowed their own broomstick
+        </label><br>
+        <label for="terms-and-conditions" name="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="terms" /> I am aware that I am confirming my attendance by completing this form
+        </label>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Send owl"/>
+  </form>
+</body>
+<footer>
+<em>- We hope to see you at Hogwarts -</em>
+</footer>
+
+</html>
