@@ -24,5 +24,5 @@ Below are the User Stories:
 16. Inside the form element, you are presented with a button with id of submit to submit all the inputs
 <br>
 <b>And here's the final product:</b><br><br>
-<img src="https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/images/HogwartsAcceptanceForm.png" alt="Hogwarts Acceptance Form">
+<img src="https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/images/HogwartsAcceptanceForm.png" alt="Hogwarts Acceptance Form"> 
 
