@@ -1,17 +1,19 @@
 body {
   font-family: 'Lora', serif;
   font-size: 1rem;
-  color: white;
-  padding: 15px;
+  color: #faebd7;
+  background-color: #1b1b32;
+  padding: 5vw;
+  max-width: 1000px;
+  min-width: 300px;
 }
 
 form {
-  width: 90vw;
-  max-width: 1000px;
-  min-width: 300px;
+  width: 75vw;
+  max-width: 750px;
+  min-width: 225px;
   margin: 0 auto;
 }
-
 
 body::before {
     content: '';
@@ -21,28 +23,60 @@ body::before {
     height: 100%;
     width: 100%;
     z-index: -1;
-    background: var(--color-navymaroon);
-    background-image: linear-gradient( 115deg, rgba(0,0,128, 0.6), rgba(222,184,135, 0.3) ), url(https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/projects/survey-form/aditya-vyas-5qUJfO4NU4o-unsplash.jpg);
+    background: var(--color-blacksaddlebrown);
+    background-image: linear-gradient( 115deg, rgba(0,0,0, 0.7), rgba(139,69,19, 0.5) ), url(https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/projects/survey-form/aditya-vyas-5qUJfO4NU4o-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+fieldset {
+  background: rgba(0,0,0,0.6);
+  border: none;
+  padding: 1rem 0;
+}
+
 fieldset:last-of-type {
   border-bottom: none;
+}
 
+label {
+  display: block;
+  margin: 1rem;
+}
+
+input,
+textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 3em;
+  background-color: rgba(0,0,0,0.6);
+  border: 1px solid #000000;
+  color: #faebd7;
 }
 
 footer {
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-align: center;
+  margin: 15px auto;
 }
 
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: center;
+}
+
+.buttons {
+  width: auto;
+  min-height: 1em;
+}
 
 #title {
   text-align: center;
   font-family: 'Germania One', cursive;
   font-size: 45px;
+  color: 
 }
 
 #description {
@@ -51,10 +85,31 @@ footer {
   font-size: 1rem;
 }
 
-#survey-form {
-
+#submit:hover {
+  background:#cd853f;
+  color: #8b4513;
 }
 
-#number {
+#submit {
+  display: block;
+  width: 60%;
+  margin: 0.5em auto;
+  height: 1em;
+  font-size: 1.25rem;
+  font-family: 'Germania One', cursive;
+  color: #faebd7;
+  background-color: #8b4513;
+  border: none;
+  min-width: 300px;
+}
 
+#dropdown {
+  font-family: 'Lora', serif;
+  padding: 1px 2px;
+  color: #C0C0C0;
+}
+
+::placeholder {
+  font-family: 'Lora', serif;
+  padding: 1px 2px;
 }
