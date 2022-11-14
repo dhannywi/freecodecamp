@@ -1,8 +1,8 @@
 # Building Hogwarts Acceptance Form
 
 One of the projects for the FreeCodeCamp's Responsive Web Design certification was building a survey form.<br>
-Being a Harry Potter fan, I reimagined the project as "What if Hogwarts embraced technology and send their potential student a QR code that links to a web form along with their acceptance letter? What would that form look like?"
-Instead of students sending their owls with their notice of acceptance, this form will act as their virtual owl.
+As a Harry Potter fan, I reimagined the project as "What if Hogwarts embraced technology and send their potential student a QR code that links to a web form along with their acceptance letter? What would that form look like?"
+Instead of students sending in owls with their notice of acceptance, this form will act as their virtual owl.
 
 Below are the User Stories:
 
@@ -24,5 +24,5 @@ Below are the User Stories:
 16. Inside the form element, you are presented with a button with id of submit to submit all the inputs
 <br>
 <b>And here's the final product:</b><br><br>
-<img src="https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/images/HogwartsAcceptanceForm.png" alt="Hogwarts Acceptance Form"> 
+<img src="https://64.media.tumblr.com/7a4f9b447888dd6049dec60f68be3cda/b76d6486c5c36d25-12/s1280x1920/d6fa152d5f18e91367d94fe8e098f82f068e0f4c.png" alt="Hogwarts Acceptance Form"> 
 
