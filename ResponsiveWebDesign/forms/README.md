@@ -23,6 +23,6 @@ Below are the User Stories:
 15. Inside the form element, you are presented with a textarea for additional comments
 16. Inside the form element, you are presented with a button with id of submit to submit all the inputs
 <br>
-<b>And here's the final product:</b><br><br>
+<p>Demo is available at: https://dhannywi.me/hogwarts-form</p>
 <img src="https://64.media.tumblr.com/7a4f9b447888dd6049dec60f68be3cda/b76d6486c5c36d25-12/s1280x1920/d6fa152d5f18e91367d94fe8e098f82f068e0f4c.png" alt="Hogwarts Acceptance Form"> 
 
