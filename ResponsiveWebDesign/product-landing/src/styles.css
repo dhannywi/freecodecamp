@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Nanum+Myeongjo:wght@400;800&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+/* --------------- HEADER ---------------*/
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #cac7a4;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  padding: 0px 20px;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+}
+
+.brand {
+  font-family: 'Ms Madi', cursive;
+  font-size: 3rem;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 450px;
+
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+#navbar {
+  padding: 30px;
+}
+
+.nav-link {
+  margin: 10px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  text-align: right;
+}
+
+.nav-link:hover {
+  color: #769353;
+  text-decoration: 1px wavy underline;
+}
+
+/* --------------- BODY ---------------*/
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #444036;
+  background-color: #f9f8ed;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #769353;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h3 {
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+section {
+  padding-bottom: 30px;
+  max-width: 750px;
+}
+
+form {
+  padding-bottom: 35px;
+}
+
+form div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-family: 'Nanum Myeongjo', serif;
+  text-transform: lowercase;
+  margin: 5px;
+  padding: 5px;
+}
+
+.tagline {
+  font-family: 'Ms Madi', cursive;
+  font-size: 5.5rem;
+  color: #769353;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.varieties {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.varieties div {
+  display: grid;
+  width: 250px;
+}
+
+.varieties img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.varieties p {
+  text-align: center;
+}
+
+.varieties a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #769353;
+}
+
+.varieties a:hover {
+  text-decoration: 1px wavy underline;
+  color: #cac7a4;
+}
+
+#variety {
+  font-family: 'Ms Madi', cursive;
+  font-size: 3rem;
+  color: #769353;
+  padding: 15px;
+}
+
+#details {
+  padding-bottom: 5px;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+}
+
+#contact {
+  text-align: center;
+  padding: 5px 0 15px 0;
+}
+
+#email {
+  width: 200px;
+  border: 1px solid #cac7a4;
+}
+
+#submit {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+  background-color: #769353;
+  border: none;
+  padding: 5px;
+}
+
+#submit:hover {
+  background-color: #cac7a4;
+  text-decoration: 1px wavy underline;
+}
+
+/* --------------- FOOTER ---------------*/
+footer {
+  width: 100%;
+  background-color: #cac7a4;
+  font-size: 1.2rem;
+}
+
+footer div {
+  color: #fff;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
