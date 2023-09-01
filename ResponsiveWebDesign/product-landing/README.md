@@ -1,4 +1,9 @@
 # Product Landing Page in HTML/CSS
+
+<img src="https://raw.githubusercontent.com/dhannywi/freecodecamp/main/ResponsiveWebDesign/product-landing/img/Cattelya-nursery.png">
+<a href="">View Live Demo</a>
+<br><br>
+  
 User Stories:
 1. Your product landing page should have a `header` element with a corresponding `id="header"`
 2. You can see an image within the `header` element with a corresponding `id="header-img"` (A logo would make a good image here)
