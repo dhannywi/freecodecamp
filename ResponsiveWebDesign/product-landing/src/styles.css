@@ -123,6 +123,7 @@ form div {
 input {
   font-family: 'Nanum Myeongjo', serif;
   text-transform: lowercase;
+  text-align: center;
   margin: 5px;
   padding: 5px;
 }
@@ -131,7 +132,7 @@ input {
   font-family: 'Ms Madi', cursive;
   font-size: 5.5rem;
   color: #769353;
-  margin-bottom: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -183,7 +184,7 @@ input {
 
 #video {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 #contact {
@@ -207,7 +208,6 @@ input {
 
 #submit:hover {
   background-color: #cac7a4;
-  text-decoration: 1px wavy underline;
 }
 
 /* --------------- FOOTER ---------------*/
